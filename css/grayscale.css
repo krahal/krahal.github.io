@@ -51,7 +51,7 @@ a {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: #1b1b1b; }
+  background-color: #000000; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -84,12 +84,13 @@ a {
       background: transparent;
       text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);}
       #mainNav.navbar-shrink {
-        padding-top: 7px;
-        padding-bottom: 7px;
-        background: #1b1b1b; }
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: #000000; }
       #mainNav .nav-link.active {
         outline: none;
-        background-color: rgba(255, 255, 255, 0.3); }
+        background-color: rgba(255, 255, 255, 0.3)
+        ; }
         #mainNav .nav-link.active:hover {
           color: white; } }
 
@@ -100,7 +101,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/header1.jpg") no-repeat bottom center scroll;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/header1.jpg") no-repeat bottom center scroll;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
   background-position: center;
@@ -149,22 +150,18 @@ a {
 
 .download-section {
   color: white;
-  background: url("../img/header1.jpg") no-repeat center center scroll;
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/notebook-hero-workspace-minimal.jpg") no-repeat center center fixed;
   background-color: #1b1b1b;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  }
 
-#map {
-  width: 100%;
-  height: 300px; }
 
 @media (min-width: 992px) {
   .content-section {
-    padding: 100px }
-  #map {
-    height: 350px; } }
+    padding: 100px } }
 
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -176,14 +173,14 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #61bfbe;
-  border: 1px solid #61bfbe;
+  color: white;
+  border: 2px solid white;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: #1b1b1b;
-    border: 1px solid #61bfbe;
+    border: 2px solid white;
     outline: none;
-    background-color: #61bfbe; }
+    background-color: white; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
@@ -223,36 +220,90 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
 
-  .darken-overlay {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-
 hr{
   display: block;
   margin-bottom: 25px;
   width: 100px;
   height: 2px;
-  background-color: #61bfbe;
-
-}
+  background-color: #61bfbe;}
 
 h4{
 font-weight: 400;
 letter-spacing: .9px;
-line-height: 1.3;
-}
+line-height: 1.3;}
 
 #main-caption{
   font-weight: normal;
-  margin: 0 0 55px;
-}
+  margin: 0 0 55px;}
 
 #main-heading{
-  letter-spacing: 3px;
-}
+  letter-spacing: 3px;}
 
 h1{
-  font-size: 3em;
+  font-size: 3em;}
+
+#resume-button{
+  color: white;
+  border: 2px solid white;
+  background-color: transparent; }
+  #resume-button.btn-default:hover {
+    color: black;
+    border: 2px solid white;
+    outline: none;
+    background-color: white;}
+    #resume-button.btn-default:focus{
+          color: #1b1b1b;
+          border: 2px solid white;
+          outline: none;
+          background-color: white;}
+
+#contact{
+  background-color: #61bfbe;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.hr-light{
+  background-color: white;
 }

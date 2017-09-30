@@ -3454,8 +3454,8 @@ tbody.collapse.show {
     left: auto;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: .5rem;
-    padding-left: .5rem;
+    padding-right: .75rem;
+    padding-left: .75rem;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
