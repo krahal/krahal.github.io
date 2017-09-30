@@ -83,16 +83,18 @@ a {
       border-bottom: none;
       background: transparent;
       text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);}
+      #mainNav .navbar-brand:hover{
+        color: rgba(255, 255, 255, 0.6);
+      }
       #mainNav.navbar-shrink {
         padding-top: 5px;
         padding-bottom: 5px;
         background: #000000; }
       #mainNav .nav-link.active {
         outline: none;
-        background-color: rgba(255, 255, 255, 0.3)
-        ; }
-        #mainNav .nav-link.active:hover {
-          color: white; } }
+        color: #61bfbe; }
+        #mainNav .nav-link:hover {
+          color: rgba(255,255,255,0.6); } }
 
 .masthead {
   display: table;
@@ -101,7 +103,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/header1.jpg") no-repeat bottom center scroll;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/header1.jpg") no-repeat bottom center scroll;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
   background-position: center;
@@ -150,7 +152,7 @@ a {
 
 .download-section {
   color: white;
-  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/notebook-hero-workspace-minimal.jpg") no-repeat center center fixed;
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/apple2.jpg") no-repeat center center fixed;
   background-color: #1b1b1b;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -196,7 +198,7 @@ ul.banner-social-buttons {
         margin-bottom: 0; } }
 
 footer {
-  padding: 50px 0; }
+  padding: 30px 0; }
   footer p {
     font-size: 14px;
     margin: 0; }
@@ -258,51 +260,11 @@ h1{
           background-color: white;}
 
 #contact{
-  background-color: #61bfbe;
+  background-color: rgba(97,191,190, 0.8);
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
 
 .hr-light{
   background-color: white;
