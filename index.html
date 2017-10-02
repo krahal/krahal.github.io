@@ -19,8 +19,7 @@
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/grayscale.css" rel="stylesheet">
-    
+    <link href="css/website-css.css" rel="stylesheet">
 
   </head>
 
@@ -31,13 +30,15 @@
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Karn Rahal</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
@@ -77,11 +78,51 @@
           <div class="col-lg-7">
             <h1 id="about-heading">HEY, I'M KARN.</h1>
             <h4>I'm a design-minded, detail oriented software developer passionate about mobile application development.</h4>
-            <hr>
+            <hr id="hr-left">
             <p>I'm a third year student at the <a href="http://www.ubc.ca/" target="_blank">University of British Columbia</a> in Vancouver pursuing a Bachelor of Applied Science in <a href="http://engineering.ubc.ca/academics/undergraduate/engineering-programs/computer-engineering" target="_blank">computer engineering</a>.
              I aspire towards a career working as a software engineer where I can both lead and learn from others. Ultimately, I will undertake my own start-up to make my impact on the world.</p>
             <p>I am intensely curious about all things tech, whether it’s the hottest new mobile app or VR tech to machine learning, big data, and autonomous cars. Feel free to message me about any tech topic, or even just life in general! I’m sure we can learn from each other.</p>
             <p>When I’m away from the computer screen, you can find me hiking with my dog <a href="http://www.instagram.com/kaiser.rottweiler/" target="_blank">Kaiser</a>, at the gym, travelling, or reading (currently <a href="http://www.goodreads.com/book/show/1303.The_48_Laws_of_Power" target="_blank">this<a/>). Photography has recently captured my heart so check out some of my work below!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h1>TECHNICAL SKILLS</h1>
+        </div>
+        <hr class="hr-dark">
+        <div class="row">
+          <div class="col-lg-5 mx-auto">
+            <h3>LANGUAGES</h3>
+            <ul>
+              <li class="skills-icon">Java</li>
+              <li class="skills-icon blue-icon">C</li>
+              <li class="skills-icon">R</li>
+              <li class="skills-icon blue-icon">Verilog</li>
+              <li class="skills-icon">SystemVerilog</li>
+              <li class="skills-icon blue-icon">ARMv7</li>
+              <li class="skills-icon">HTML5</li>
+              <li class="skills-icon blue-icon">CSS3</li>
+              <li class="skills-icon">Bootstrap</li>
+            </ul>
+          </div>
+          <div class="col-lg-5 mx-auto">
+            <h3>SOFTWARE</h3>
+            <ul>
+              <li class="skills-icon">GitHub</li>
+              <li class="skills-icon blue-icon">Eclipse</li>
+              <li class="skills-icon">Android Studio</li>
+              <li class="skills-icon blue-icon">AutoCad</li>
+              <li class="skills-icon">Inventor</li>
+              <li class="skills-icon blue-icon">Quartus</li>
+              <li class="skills-icon">ModelSim</li>
+              <li class="skills-icon blue-icon">R Studio</li>
+              <li class="skills-icon">Arduino IDE</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -97,7 +138,7 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="content-section text-center">
+    <section id="experience" class="experience-section content-section text-center">
       <div class="container">
 
       </div>
@@ -111,9 +152,7 @@
             <h1>LET'S START A CONVERSATION</h1>
             <hr class="hr-light">
             <p>Have an interesting project in mind or just want to chat? Feel free to send me an email.</p>
-            <a href="mailto: karn.rahal@alumni.ubc.ca" class="btn btn-default btn-lg">
-              <span class="network-name">Say Hello</span>
-            </a>
+            <a href="resume.pdf" target="_blank" class="btn btn-default btn-lg" id="resume-button">Download Resume</a>
           </div>
         </div>
       </div>
@@ -143,7 +182,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
+    <script src="js/website-js.min.js"></script>
 
   </body>
 
