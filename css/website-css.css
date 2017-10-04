@@ -109,7 +109,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: #f2f2f2;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/main-nofilter.png") no-repeat bottom center scroll;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/main-nofilter.png") no-repeat bottom center;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
   background-position: center;
@@ -117,7 +117,6 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;}
   .masthead .intro-body {
     display: table-cell;
@@ -154,11 +153,14 @@ a {
     background: rgba(255, 255, 255, 0.1); }
 
 .content-section {
-  padding: 15px; }
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right:  15px;}
 
 .resume-section {
   color: #f2f2f2;
-  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/apple2.jpg") no-repeat center center fixed;
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/apple2.jpg") no-repeat center center;
   background-color: #1b1b1b;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -440,4 +442,16 @@ ul{
 
 .pic-heading{
   margin-bottom: 6px;
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    background-attachment: fixed;}}
+
+@media (min-width: 768px) {
+  .resume-section {
+    background-attachment: fixed;}}
+
+#experience-hr{
+  margin-bottom: 40px;
 }
