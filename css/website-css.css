@@ -58,7 +58,8 @@ a {
     color: #f2f2f2;
     border: 1px solid #f2f2f2; }
   #mainNav .navbar-brand {
-    font-weight: 500; }
+    font-weight: 500;
+  padding-left: 12px;}
   #mainNav a {
     color: #f2f2f2; }
   #mainNav .navbar-nav .nav-item {
@@ -73,14 +74,14 @@ a {
       outline: none;
       background-color: transparent; }
       #mainNav ul{
-        font-size: 15px;
+        font-size: 14px;
         }
   @media (min-width: 992px) {
     #mainNav {
       padding-top: 20px;
       padding-bottom: 20px;
-      padding-left: 0px;
-      padding-right: 0px;
+      padding-left: 30px;
+      padding-right: 30px;
       -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
       -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
       transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
@@ -108,7 +109,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: #f2f2f2;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/IMG_0005.png") no-repeat bottom center scroll;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/main-filter.jpg") no-repeat bottom center scroll;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
   background-position: center;
@@ -367,6 +368,7 @@ footer{
   height: 100px;
   line-height: 7;
   font-size: 14px;
+  border-radius: 50%;
 
 }
 ul{
@@ -411,4 +413,15 @@ ul{
   margin-bottom: 20px;
   font-weight: 400;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.hidden{
+     opacity: 0;
+}
+.visible{
+     opacity: 1;
+}
+
+.carousel-inner img {
+  margin: auto;
 }

@@ -20,6 +20,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/website-css.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
 
   </head>
 
@@ -27,7 +29,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
+      <div class="container" id="nav-container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Karn Rahal</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
@@ -36,6 +38,9 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#passion">Passion</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -76,13 +81,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
-            <h1 id="about-heading">HEY, I'M KARN.</h1>
-            <h4>I'm a design-minded, detail oriented software developer passionate about mobile application development.</h4>
-            <hr id="hr-left">
-            <p>I'm a third year student at the <a href="http://www.ubc.ca/" target="_blank">University of British Columbia</a> in Vancouver pursuing a Bachelor of Applied Science in <a href="http://engineering.ubc.ca/academics/undergraduate/engineering-programs/computer-engineering" target="_blank">computer engineering</a>.
+            <h1 id="about-heading" class="fade-animate">HEY, I'M KARN.</h1>
+            <h4 class="fade-animate">I'm a design-minded, detail oriented software developer passionate about mobile application development.</h4>
+            <hr id="hr-left" class="fade-animate">
+            <p class="fade-animate">I'm a third year student at the <a href="http://www.ubc.ca/" target="_blank">University of British Columbia</a> in Vancouver pursuing a Bachelor of Applied Science in <a href="http://engineering.ubc.ca/academics/undergraduate/engineering-programs/computer-engineering" target="_blank">computer engineering</a>.
              I aspire towards a career working as a software engineer where I can both lead and learn from others. Ultimately, I will undertake my own start-up to make my impact on the world.</p>
-            <p>I am intensely curious about all things tech, whether it’s the hottest new mobile app or VR tech to machine learning, big data, and autonomous cars. Feel free to message me about any tech topic, or even just life in general! I’m sure we can learn from each other.</p>
-            <p>When I’m away from the computer screen, you can find me hiking with my dog <a href="http://www.instagram.com/kaiser.rottweiler/" target="_blank">Kaiser</a>, at the gym, travelling, or reading (currently <a href="http://www.goodreads.com/book/show/1303.The_48_Laws_of_Power" target="_blank">this<a/>).</p>
+            <p class="fade-animate">I am intensely curious about all things tech, whether it’s the hottest new mobile app or VR tech to machine learning, big data, and autonomous cars. Feel free to message me about any tech topic, or even just life in general! I’m sure we can learn from each other.</p>
+            <p class="fade-animate">When I’m away from the computer screen, you can find me hiking with my dog <a href="http://www.instagram.com/kaiser.rottweiler/" target="_blank">Kaiser</a>, at the gym, travelling, or reading (currently <a href="http://www.goodreads.com/book/show/1303.The_48_Laws_of_Power" target="_blank">this<a/>).</p>
         </div>
       </div>
     </section>
@@ -90,16 +95,16 @@
     <section id="passion" class="passion-section content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-          <h1 id="passion-title">THIS IS MY SYSTEM</h1>
-          <hr class="hr-light">
-          <h4 class="slogans">PURSUE PASSIONS, NOT PAYCHECKS</h4>
-          <h4 class="slogans">GIVING UP IS NOT AN OPTION</h4>
-          <h4 class="slogans">BELIEVE IN CHANGE</h4>
-          <h4 class="slogans">READ EVERY DAY</h4>
-          <h4 class="slogans">STRIVE FOR GREATNESS</h4>
-          <h4 class="slogans">INVEST IN IDEAS THAT MATTER</h4>
-          <h4 class="slogans">EXERCISE YOUR MIND AND BODY</h4>
-          <h4 class="slogans">KEEP IT SIMPLE STUPID</h4>
+          <h1 id="passion-title" class="fade-animate">THIS IS MY SYSTEM</h1>
+          <hr class="hr-light fade-animate">
+          <h4 class="slogans fade-animate">PURSUE PASSIONS, NOT PAYCHECKS</h4>
+          <h4 class="slogans fade-animate">GIVING UP IS NOT AN OPTION</h4>
+          <h4 class="slogans fade-animate">BELIEVE IN CHANGE</h4>
+          <h4 class="slogans fade-animate">READ EVERY DAY</h4>
+          <h4 class="slogans fade-animate">STRIVE FOR GREATNESS</h4>
+          <h4 class="slogans fade-animate">INVEST IN IDEAS THAT MATTER</h4>
+          <h4 class="slogans fade-animate">EXERCISE YOUR MIND AND BODY</h4>
+          <h4 class="slogans fade-animate">KEEP IT SIMPLE STUPID</h4>
         </div>
       </div>
     </section>
@@ -108,10 +113,10 @@
     <section id="skills" class="skills-section content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-          <h1>TECHNICAL SKILLS</h1>
+          <h1 class="fade-animate">TECHNICAL SKILLS</h1>
         </div>
-        <hr class="hr-skills">
-        <div class="row">
+        <hr class="hr-skills fade-animate">
+        <div class="row fade-animate">
           <div class="col-lg-5 mx-auto">
             <h3>
               <i class="fa fa-sort-alpha-asc"></i><span>LANGUAGES</span></h3>
@@ -158,20 +163,59 @@
 
     <!-- Experience Section -->
     <section id="experience" class="experience-section content-section text-center">
-      <div class="container">
-
+      <div class="container ">
+        <h1 id="Experience Title">EXPERIENCE</h1>
+        <hr class="hr-skills">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="img/Autonomous-Multifunction-Robot.jpg" alt="Personal Website">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>...</h3>
+                <p>...</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/apple2.jpg" alt="Takeoff!">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>...</h3>
+                <p>...</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/Autonomous-Multifunction-Robot.jpg" alt="Autonmous Multifunction Robot">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Autonomous Multifunction Robot</h3>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact-section content-section text-center">
-      <div class="container">
+      <div class="container fade-animate">
         <div class="row">
           <div class="col-lg-6 mx-auto">
             <h1>LET'S START A CONVERSATION</h1>
             <hr class="hr-light">
             <p>Have an interesting project in mind or just want to chat? Feel free to send me an email.</p>
-            <a href="resume.pdf" target="_blank" class="btn btn-default btn-lg" id="resume-button">Download Resume</a>
+            <a href="mailto:karn.rahal@alumni.ubc.ca" class="btn btn-default btn-lg" id="resume-button">SAY HELLO</a>
           </div>
         </div>
       </div>
@@ -201,7 +245,17 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/website-js.min.js"></script>
+    <script src="js/website-js.js"></script>
+    <script src="js/viewportchecker.js"></script>
+
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+    jQuery('.fade-animate').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInUp',
+        offset: 100
+       });
+     });
+     </script>
 
   </body>
 
