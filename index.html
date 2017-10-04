@@ -65,10 +65,8 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading" id="main-heading">KARN RAHAL</h1>
-              <p class="intro-text" id="main-caption">DESIGNER. DEVELOPER. ENGINEER.</p>
-              <!--<a href="#about" class="btn btn-circle js-scroll-trigger">
-                <i class="fa fa-angle-double-down animated"></i>-->
+              <h1 class="brand-heading fade-animate2" id="main-heading">KARN RAHAL</h1>
+              <p class="intro-text fade-animate" id="main-caption">DESIGNER. DEVELOPER. ENGINEER.</p>
               </a>
             </div>
           </div>
@@ -262,6 +260,15 @@
        });
      });
      </script>
+
+     <script type="text/javascript">
+     jQuery(document).ready(function() {
+     jQuery('.fade-animate2').addClass("hidden").viewportChecker({
+         classToAdd: 'visible animated fadeInDown',
+         offset: 100
+        });
+      });
+      </script>
 
   </body>
 
