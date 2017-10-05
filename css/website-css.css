@@ -455,3 +455,10 @@ ul{
 #experience-hr{
   margin-bottom: 45px;
 }
+
+@media (min-width: 1200px){
+  .experience-section{
+    max-width: 1500px;
+    margin: auto;
+  }
+}
