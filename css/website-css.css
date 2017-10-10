@@ -462,3 +462,7 @@ ul{
     margin: auto;
   }
 }
+
+#contact p{
+  margin-bottom: 35px;
+}
