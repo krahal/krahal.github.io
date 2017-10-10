@@ -109,7 +109,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: #f2f2f2;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img/main-nofilter.png") no-repeat bottom center;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img-compressed/main-nofilter-min.png") no-repeat bottom center;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
   background-position: center;
@@ -160,7 +160,7 @@ a {
 
 .resume-section {
   color: #f2f2f2;
-  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/apple2.jpg") no-repeat center center;
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img-compressed/apple2-min.jpg") no-repeat center center;
   background-color: #1b1b1b;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -170,7 +170,7 @@ a {
 
 .passion-section {
   color: #f2f2f2;
-  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/van9.jpg") no-repeat center center;    background-color: #1b1b1b;
+  background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img-compressed/van9-min.jpg") no-repeat center center;    background-color: #1b1b1b;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
