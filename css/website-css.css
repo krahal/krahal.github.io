@@ -50,7 +50,6 @@ a {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
   text-transform: uppercase;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: black; }
   #mainNav .navbar-toggler {
     font-size: 14px;
@@ -58,8 +57,7 @@ a {
     color: #f2f2f2;
     border: 1px solid #f2f2f2; }
   #mainNav .navbar-brand {
-    font-weight: 500;
-  padding-left: 12px;}
+    font-weight: 500;}
   #mainNav a {
     color: #f2f2f2; }
   #mainNav .navbar-nav .nav-item {
@@ -100,7 +98,10 @@ a {
         outline: none;
         color: #61bfbe; }
         #mainNav .nav-link:hover {
-          color: rgba(255,255,255,0.6); } }
+          color: rgba(255,255,255,0.6); }
+          #mainNav .navbar-brand{
+            padding-left: 12px;
+            } }
 
 .masthead {
   display: table;
@@ -109,7 +110,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: #f2f2f2;
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../img-compressed/main-nofilter-min.png") no-repeat bottom center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img-compressed/main-nofilter-min.png") no-repeat bottom center;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 
   background-position: center;
