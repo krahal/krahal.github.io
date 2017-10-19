@@ -467,3 +467,7 @@ ul{
 #contact p{
   margin-bottom: 35px;
 }
+
+.carousel-control-prev {
+  color: #bada55;
+}
