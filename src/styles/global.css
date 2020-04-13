@@ -9,13 +9,13 @@
 }
 
 a {
-    color: #ff2353;
+    color: #d33a2c;
     text-decoration: none;
 
 }
 
 a:visited {
-    color: #ff2353;
+    color: #d33a2c;
 }
 
 a:hover {
@@ -37,8 +37,8 @@ a:hover {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #FF2353;
-    border: 1px solid #FF2353;
+    background-color: #d33a2c;
+    border: 1px solid #d33a2c;
     font-size: 0.9rem;
     -webkit-letter-spacing: 0.6px;
     -moz-letter-spacing: 0.6px;
@@ -76,6 +76,6 @@ a:visited.button1 {
     -webkit-text-decoration: none;
     text-decoration: none !important;
     background-color: #fff;
-    color: #FF2353;
-    border: 1px solid #FF2353;
+    color: #d33a2c;
+    border: 1px solid #d33a2c;
 }
