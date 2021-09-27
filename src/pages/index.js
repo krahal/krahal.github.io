@@ -18,9 +18,9 @@ export default () => (
                     I'm an ambitious software engineer experienced in web and mobile development, machine learning, and DevOps.
                 </p>
                 <p>
-                    Currently, I'm studying Computer Engineering at <a href="https://www.ubc.ca/" target="_blank" rel="noopener">UBC</a> and will be graduating this May.
-                    I'll begin working full-time this June as a Software Engineer at <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>.
+                    Currently, I'm working full-time as a Software Engineer at <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>.
                     I've previously interned at <a href="https://www.salesforce.com/" target="_blank" rel="noopener">Salesforce</a> (2019) and <a href="https://www.one45.com/" target="_blank" rel="noopener">one45</a> (2018).
+                    I studied Computer Engineering at <a href="https://www.ubc.ca/" target="_blank" rel="noopener">UBC</a>.
                 </p>
             </div>
             <div>
